@@ -1,0 +1,73 @@
+.Background {
+  background-image: url('../../assets/images/DrapeBackground.png');
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (max-height: 200px) {
+  .Background {
+    height: 400vh;
+  }
+}
+
+@media (min-height: 300px) {
+  .Background {
+    height: 300vh;
+  }
+}
+
+@media (min-height: 500px) {
+  .Background {
+    height: 180vh;
+  }
+}
+
+@media (min-height: 700px) {
+  .Background {
+    height: 120vh;
+  }
+}
+
+@media (min-height: 850px) {
+  .Background {
+    height: 100vh;
+  }
+}
+
+.Logo {
+  background-image: url('https://static.wixstatic.com/media/a858c7_57fde3fb75ec4e0c819b53624294203b.png/v1/fill/w_324,h_162,al_c,q_80,usm_0.66_1.00_0.01/a858c7_57fde3fb75ec4e0c819b53624294203b.webp?fbclid=IwAR11vEWrLl6_pI-xb4gVaJt7vHBm7Ds2TYMtdMgrKUkzqTWTH_bI6SkvujM');
+  background-repeat: no-repeat;
+  margin: auto;
+  width: 320px;
+  height: 300px;
+}
+
+.IconGroup {
+  display: flex;
+  margin: auto;
+}
+
+.IconGroup div {
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+}
+
+.IconGroup div:hover {
+  cursor: pointer;
+}
+
+.IconGroup .Facebook {
+  background-image: url('https://static.wixstatic.com/media/e0678ef25486466ba65ef6ad47b559e1.png/v1/fill/w_40,h_40,al_c,q_80,usm_0.66_1.00_0.01/e0678ef25486466ba65ef6ad47b559e1.webp');
+}
+
+.IconGroup .Pintrest {
+  background-image: url('https://static.wixstatic.com/media/767689ba34f143a1a36e49b5f2fbe31a.png/v1/fill/w_40,h_40,al_c,q_80,usm_0.66_1.00_0.01/767689ba34f143a1a36e49b5f2fbe31a.webp');
+}
+
+.IconGroup .Instagram {
+  background-image: url('https://static.wixstatic.com/media/17f992598001435083075924d7b6ae80.png/v1/fill/w_40,h_40,al_c,q_80,usm_0.66_1.00_0.01/17f992598001435083075924d7b6ae80.webp');
+
+}

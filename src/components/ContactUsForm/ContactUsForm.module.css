@@ -1,0 +1,96 @@
+.FormContainer {
+  background-color: rgb(174,169,168);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+@media(max-width: 1200px) {
+  .FormContainer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 4;
+  height: 670px;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.Form .Header {
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 3px solid black;
+}
+
+.Form .Header p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.Field {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+}
+
+.Field input {
+  font-size: 20px;
+  width: 30vw;
+  height: 40px;
+  padding: 5px;
+  border: 2px solid black;
+}
+
+.Field .Message {
+  font-size: 20px;
+  width: 30vw;
+  height: 200px;
+  padding: 5px;
+  resize: none;
+  border: 2px solid black;
+}
+
+@media(max-width: 1200px) {
+  .Field input {
+    width: 80vw;
+  }
+  .Field .Message {
+    width: 80vw;
+  }
+}
+
+.Field span {
+  color: red;
+}
+
+.Form .SubmitButton:hover {
+  background-color: darkslategray;
+}
+
+.Form .SubmitButton {
+  transition: background-color 0.2s ease;
+}
+.Form .SubmitButton {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  height: 50px;
+  width: 115px;
+  border: none;
+  cursor: pointer;
+  margin-right: auto;
+  margin-left: auto;
+}

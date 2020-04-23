@@ -1,0 +1,107 @@
+video {
+  z-index: -1;
+  left: 0;
+  top: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: fill;
+  position: fixed;
+}
+
+.Background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (max-height: 300px) {
+  .Background {
+    height: 400vh;
+  }
+}
+
+@media (min-height: 300px) {
+  .Background {
+    height: 300vh;
+  }
+}
+
+@media (min-height: 500px) {
+  .Background {
+    height: 180vh;
+  }
+}
+
+@media (min-height: 700px) {
+  .Background {
+    height: 120vh;
+  }
+}
+
+@media (min-height: 850px) {
+  .Background {
+    height: 100vh;
+  }
+}
+
+.Background .Content {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 40%;
+  height: 70%;
+  margin: auto;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-family: 'Athiti';
+  letter-spacing: 2px;
+}
+
+.Background .Content p {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.Background .Content .Heading {
+  font-size: 45px;
+  border-bottom: 3px solid black;
+}
+
+.Background .Content .SubHeading {
+  color: rgba(0, 0, 0, .6);
+}
+
+@media (min-width: 1600px) {
+  .Background .Content .SubHeading {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .Background .Content .SubHeading {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .Background .Content .SubHeading {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .Background .Content .SubHeading {
+    font-size: 18px;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .Background .Content .SubHeading {
+    font-size: 16px;
+  }
+  .Background .Content {
+    padding-bottom: 90px;
+  }
+}
